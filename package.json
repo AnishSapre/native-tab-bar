@@ -1,0 +1,53 @@
+{
+  "name": "native-tab-bar",
+  "version": "0.1.0",
+  "description": "Apple's UITabBar for React Native: the real iOS 26 liquid glass tab bar, with a drop-in React Navigation tabBar adapter.",
+  "main": "src/index.ts",
+  "react-native": "src/index.ts",
+  "types": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "ios",
+    "*.podspec",
+    "react-native.config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "liquid-glass",
+    "ios-26",
+    "fabric",
+    "new-architecture",
+    "tab-bar",
+    "bottom-tabs",
+    "react-navigation",
+    "uitabbar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnishSapre/native-tab-bar.git"
+  },
+  "homepage": "https://github.com/AnishSapre/native-tab-bar#readme",
+  "bugs": {
+    "url": "https://github.com/AnishSapre/native-tab-bar/issues"
+  },
+  "author": "Anish Sapre",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.76.0"
+  },
+  "codegenConfig": {
+    "name": "NativeTabBarSpec",
+    "type": "components",
+    "jsSrcsDir": "src",
+    "ios": {
+      "componentProvider": {
+        "NativeTabBar": "NativeTabBarView"
+      }
+    }
+  }
+}
