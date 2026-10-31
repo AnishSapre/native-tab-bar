@@ -1,5 +1,9 @@
 # native-tab-bar
 
+[![npm](https://img.shields.io/npm/v/native-tab-bar.svg)](https://www.npmjs.com/package/native-tab-bar) [![license](https://img.shields.io/npm/l/native-tab-bar.svg)](https://github.com/AnishSapre/native-tab-bar/blob/main/LICENSE)
+
+**npm:** [native-tab-bar](https://www.npmjs.com/package/native-tab-bar) · **GitHub:** [AnishSapre/native-tab-bar](https://github.com/AnishSapre/native-tab-bar)
+
 Apple's `UITabBar` for React Native. On iOS 26 that is the real **liquid glass** tab bar:
 the glass selection lens, drag-to-switch along the bar and press feedback all come from
 UIKit, not an imitation. Includes a drop-in `tabBar` for React Navigation's bottom tabs.
@@ -105,6 +109,14 @@ import { TabBar } from 'native-tab-bar'
 A small Fabric component wraps Apple's own UIKit control, so iOS draws and animates it.
 React Native's codegen builds the bridge from the TypeScript spec in
 `src/*NativeComponent.ts` during `pod install`.
+
+## Related packages
+
+Native iOS controls for React Native (New Architecture), with liquid glass on iOS 26:
+
+- [native-segmented-control](https://github.com/AnishSapre/native-segmented-control) ([npm](https://www.npmjs.com/package/native-segmented-control)): Apple's UISegmentedControl
+- [native-glass-button](https://github.com/AnishSapre/native-glass-button) ([npm](https://www.npmjs.com/package/native-glass-button)): iOS 26 liquid glass buttons and menus
+- [native-slider](https://github.com/AnishSapre/native-slider) ([npm](https://www.npmjs.com/package/native-slider)): Apple's UISlider
 
 ## License
 
