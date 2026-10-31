@@ -1,6 +1,6 @@
 {
   "name": "native-tab-bar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Apple's UITabBar for React Native: the real iOS 26 liquid glass tab bar, with a drop-in React Navigation tabBar adapter.",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
